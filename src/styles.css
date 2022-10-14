@@ -72,3 +72,8 @@ footer {
 h4 {
   margin-left: 20px;
 }
+
+.user{
+  max-height: 30px;
+  max-width: 30px;
+}
