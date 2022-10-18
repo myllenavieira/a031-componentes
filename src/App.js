@@ -4,6 +4,9 @@ import "./styles.css";
 
 export default function App() {
   
+  const obj = {imagem: "https://picsum.photos/400/400?a=1",
+  titulo: "Título do vídeo A"};
+
   return (
     <div>
       <div className="tela-inteira">
@@ -25,7 +28,7 @@ export default function App() {
           </nav>
 
           <section className="painel-de-videos">
-          <CardVideo/>
+          <CardVideo info={obj}/>
           </section>
         </main>
 

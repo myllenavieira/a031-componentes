@@ -1,11 +1,10 @@
 import React from "react";
-import user from "./img/user.svg"
 
-export default function InfosUsuario(){
+export default function InfosUsuario(props){
     return (
-    <>
-    <img src={user} alt="" className="user"/>
-    <p>Nome do usuário: Usuário 1</p>
-    </>
+    <div className="info">
+    <img src={props.infos.imagem} alt="" className="user"/>
+    <p>{props.infos.user}</p>
+    </div>
     )
 }
